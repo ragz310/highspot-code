@@ -11,19 +11,20 @@
 
 .cards__loader-one {
     height: 14px;
-    width: 100%;
+    width: 45%;
     margin-bottom: 20px;
 }
 
 .cards__loader-two {
     height: 14px;
-    width: 100%;
+    width: 65%;
 }
 
 .cards__loader .cards-shimmer {
     background-color: #ededed;
     background-image: linear-gradient(100deg,#ccc,#f5f6f5);
-    animation: shimmerAnimation 5s infinite;
+    background-repeat: no-repeat;
+    animation: shimmerAnimation 3s infinite;
     background-size: 4em 100%;
 }
 
