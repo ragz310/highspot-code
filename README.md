@@ -4,8 +4,9 @@ https://github.com/ragz310/highspot-code.git
 
 ## Available Scripts
 
-Once git cloned to local, in the project directory please run:
+Once git cloned to local, in the project directory please run below scripts:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.<br />
