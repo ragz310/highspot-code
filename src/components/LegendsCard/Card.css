@@ -1,0 +1,97 @@
+.legends__cards--wrapper {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
+	grid-gap: 8px;
+	text-align: center;
+	max-width: 75em;
+	margin: 0 auto;
+	padding: 20px 8px;
+}
+
+.legends__card--link {
+	text-decoration: none;
+	color: #fff;
+	pointer: cursor;
+}
+
+.legends__card--link:hover img{
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
+    -webkit-box-shadow: 0 0 20px 3px rgba(9,152,0,.6);
+    box-shadow: 0 0 20px 3px rgba(9,152,0,.6);
+    -webkit-transition: all 600ms;
+    -o-transition: all 600ms;
+    transition: all 600ms;
+}
+
+.legends__card--img img{
+	max-width: calc(100vw - 16px)
+}
+
+.legends__card--content {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.error__message {
+	height: 100vh;
+	margin-top: -16px;
+	padding: 16px;
+}
+
+.error__message--inner {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	color: #bf2155;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.legends__card--search {
+  background-color: #282c34;
+  text-align: center;
+  padding: 40px 8px;
+}
+
+.legends__card--search-form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.legends__card--search-form input{
+  width: calc(100% - 28px);
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 350px) {
+	.legends__card--content {
+		width: 350px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+  .legends__card--search-form {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+	.legends__cards--wrapper {
+		grid-template-columns: 50% 50%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.legends__cards--wrapper {
+		grid-template-columns: 33% 33% 33%;
+	}
+}

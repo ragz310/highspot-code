@@ -1,0 +1,38 @@
+.cards__loader {
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+.cards__loader--container {
+    padding: 0 8px;
+}
+
+.cards__loader-one {
+    height: 14px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cards__loader-two {
+    height: 14px;
+    width: 100%;
+}
+
+.cards__loader .cards-shimmer {
+    background-color: #ededed;
+    background-image: linear-gradient(100deg,#ccc,#f5f6f5);
+    animation: shimmerAnimation 5s infinite;
+    background-size: 4em 100%;
+}
+
+@keyframes shimmerAnimation {
+    0% {
+        background-position: -4em top;
+    }
+
+    to {
+        background-position: 100% top;
+    }
+}

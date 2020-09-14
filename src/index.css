@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  overflow-y: scroll;
+}
+
+#legends__game--container {
+  background-color: #282c34;
+  height: 100%
+}
