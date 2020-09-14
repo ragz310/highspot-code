@@ -114,7 +114,7 @@ export default class Card extends React.Component {
 					<div>
 						<div className="legends__card--search">
 							<div className="legends__card--search-form">
-								<input type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} />
+								<input type="text" placeholder="Search by Card Name..." value={this.state.search} onChange={this.updateSearch.bind(this)} />
 							</div>
 						</div>
 						<div className="legends__cards--wrapper">
